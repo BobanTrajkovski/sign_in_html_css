@@ -1,0 +1,131 @@
+body {
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin-top:135px;
+  margin-bottom:250px;
+  margin-left:350px;
+  margin-right:350px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  margin-right:20px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right:20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block; 
+  
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  height: 40px; /* added fixed height */
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+p{
+	text-align:center;
+}
+
+#comments{
+	resize: none;
+	width:755px;
+	height:150px;
+}
+
+#idid{
+	margin-bottom:20px;
+}
+
+#idid2{
+	margin-bottom:20px;
+}
+
+#email {
+  height: 30px;
+  width: 750px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#name {
+  height: 25px;
+  width: 750px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#number {
+  height: 25px;
+  width: 750px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#background-image{
+  background-image: url('Flag_of_North_Macedonia.svg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 280vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; /* to ensure it's behind the container */
+}
+
+
